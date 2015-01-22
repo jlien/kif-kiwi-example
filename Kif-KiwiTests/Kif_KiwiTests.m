@@ -6,35 +6,50 @@
 //  Copyright (c) 2015 midasmobile. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <XCTest/XCTest.h>
+//#import <UIKit/UIKit.h>
+//#import <XCTest/XCTest.h>
+//
+//@interface Kif_KiwiTests : XCTestCase
+//
+//@end
+//
+//@implementation Kif_KiwiTests
+//
+//- (void)setUp {
+//    [super setUp];
+//    // Put setup code here. This method is called before the invocation of each test method in the class.
+//}
+//
+//- (void)tearDown {
+//    // Put teardown code here. This method is called after the invocation of each test method in the class.
+//    [super tearDown];
+//}
+//
+//- (void)testExample {
+//    // This is an example of a functional test case.
+//    XCTAssert(YES, @"Pass");
+//}
+//
+//- (void)testPerformanceExample {
+//    // This is an example of a performance test case.
+//    [self measureBlock:^{
+//        // Put the code you want to measure the time of here.
+//    }];
+//}
+//
+//@end
 
-@interface Kif_KiwiTests : XCTestCase
+#import <KIF-Kiwi.h>
 
-@end
+SPEC_BEGIN(MainViewAppSpec)
 
-@implementation Kif_KiwiTests
+describe(@"Main view", ^{
+    
+    it(@"should have tappable button", ^{
+        [tester tapViewWithAccessibilityLabel:@"Tap Me!"];
+        [tester waitForViewWithAccessibilityLabel:@"I'm Here"];
+    });
+    
+});
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
-
-@end
+SPEC_END
