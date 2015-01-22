@@ -4,6 +4,31 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-Kif-Kiwi-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Kif-Kiwi-RestKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Kif-Kiwi-SOCKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Kif-Kiwi-TransitionKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Kif-Kiwi.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Kif-KiwiTests-KIF-Kiwi.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Kif-KiwiTests-RestKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Kif-KiwiTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +62,57 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>33C565F9ECDFC1F55447F537</key>
+		<key>0B398891C75874068B8E79FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B7EFCD3018049759E816BE4</key>
+		<key>117360ED91D08E9E779915A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B4A0CB887FF0D85ECF36A636</key>
+		<key>490523157B49ADFCB4908DC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD549A630D70AB5D42275E2E</key>
+		<key>5BEACD4EFEB52032BC505DE4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E60CBAF38312CE933016FA31</key>
+		<key>73C013FF0E79E3A5FFB49260</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81F0F9F7CC7EE51E5407E1F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85D879219B5146B7E340B66B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88DC9A44AA46DA9D2689AF84</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A156E74F4171D368B83C7354</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEF287871AD36D21A5ABBAD3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD23254508BE505469CFFD2F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

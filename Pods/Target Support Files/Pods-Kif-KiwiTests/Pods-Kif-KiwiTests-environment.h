@@ -36,3 +36,9 @@
 #define COCOAPODS_VERSION_MINOR_Nocilla 9
 #define COCOAPODS_VERSION_PATCH_Nocilla 0
 
+// RestKit/Testing
+#define COCOAPODS_POD_AVAILABLE_RestKit_Testing
+#define COCOAPODS_VERSION_MAJOR_RestKit_Testing 0
+#define COCOAPODS_VERSION_MINOR_RestKit_Testing 20
+#define COCOAPODS_VERSION_PATCH_RestKit_Testing 3
+
