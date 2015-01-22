@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88DC9A44AA46DA9D2689AF84"
+               BlueprintIdentifier = "6139ECDB70F2427F101E94FA"
                BuildableName = "libPods-Kif-Kiwi-TransitionKit.a"
                BlueprintName = "Pods-Kif-Kiwi-TransitionKit"
                ReferencedContainer = "container:Pods.xcodeproj">

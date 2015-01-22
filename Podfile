@@ -3,11 +3,11 @@
 
 target 'Kif-Kiwi' do
   pod 'RestKit', '~> 0.20.0'
+  pod 'RestKit/Testing', '~> 0.20.0'
 end
 
 target 'Kif-KiwiTests' do
   pod 'KIF-Kiwi'
   pod 'Nocilla'
-  pod 'RestKit/Testing', '~> 0.20.0'
 end
 

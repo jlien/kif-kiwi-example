@@ -1,8 +1,0 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#endif
-
-#import "Pods-Kif-KiwiTests-environment.h"
-#ifdef __OBJC__
-#import <CoreData/CoreData.h>
-#endif /* __OBJC__*/
