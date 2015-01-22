@@ -2,7 +2,7 @@
 
 SPEC_BEGIN(MainViewAppSpec)
 
-describe(@"main view", ^{
+describe(@"Main View", ^{
     
     it(@"should have tappable button", ^{
         [tester tapViewWithAccessibilityLabel:@"Tap Me!"];

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SampleWebService.h"
 
 @interface ViewController ()
 
@@ -28,7 +29,15 @@
 
 -(IBAction)btnTapped:(id)sender
 {
-    _hereLabel.hidden = NO;
+    [SampleWebService get:@"path" handler:^(id obj, NSError *error) {
+        if (error) {
+            [[[UIAlertView alloc] initWithTitle:@"Title" message:@"Error occurred" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+        } else {
+            NSData *data = obj;
+            _hereLabel.text = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            _hereLabel.hidden = NO;
+        }
+    }];
 }
 
 @end
