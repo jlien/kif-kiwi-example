@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Kif-KiwiTests-Nocilla.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Kif-KiwiTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>14561BB7DF6DAF404455E020</key>
+		<key>33C565F9ECDFC1F55447F537</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>783AB977D45A62EF98C59923</key>
+		<key>8B7EFCD3018049759E816BE4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>87DEF2EFADFD3AF3A8907EE0</key>
+		<key>B4A0CB887FF0D85ECF36A636</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB32AA12BE577A1102507A6B</key>
+		<key>CD549A630D70AB5D42275E2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E60CBAF38312CE933016FA31</key>
 		<dict>
 			<key>primary</key>
 			<true/>

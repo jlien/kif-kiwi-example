@@ -7,5 +7,6 @@ end
 
 target 'Kif-KiwiTests' do
   pod 'KIF-Kiwi'
+  pod 'Nocilla'
 end
 
