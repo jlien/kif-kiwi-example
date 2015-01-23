@@ -5,6 +5,8 @@ target 'Kif-Kiwi' do
   pod 'AFNetworking'
   pod 'MBAlertView'
   pod 'FDKeychain'
+  pod 'RBStoryboardLink'
+  pod 'SDWebImage'
 end
 
 target 'Kif-KiwiTests' do

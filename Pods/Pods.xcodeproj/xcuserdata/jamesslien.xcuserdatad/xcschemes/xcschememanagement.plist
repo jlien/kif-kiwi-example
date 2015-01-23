@@ -19,6 +19,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Kif-Kiwi-RBStoryboardLink.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Kif-Kiwi-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Kif-Kiwi.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,52 +67,62 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3F395D272E71DDF0BC083552</key>
+		<key>12741CDDDCEC100E9EA0C0AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>47558157A1D8ED442EB33EBA</key>
+		<key>37C8217B6985BE6A43AEEA64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5585E8C7575AA3CA4AF09F1A</key>
+		<key>68AD3551E23A9212C2C1FF4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96F2BAE1A22F1F8488BBC989</key>
+		<key>68BF7DB2050777B925B92F65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CCFB097E422D3DC8D46E0B4B</key>
+		<key>7AAF2CE4027B795CB2A97993</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB30F8CEA8E803E53BAECC67</key>
+		<key>902F8C65E27293C25FD39C88</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E877EC1271BAD2BE83A9EED8</key>
+		<key>B9B64FD927C2F93F2FF4066E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EFC06EAB96C3A6732BEBD139</key>
+		<key>BC4DBF2B023F19C75A98FCB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F15E76776025B221B661B311</key>
+		<key>CDBC09A12ACC0CC8B6BB7AF8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F1F8DBCD060BCF18FDFBBE0D</key>
+		<key>E9DC256D96A2E3A433F9350E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBC88DE57DECEDD69B7A47FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F61BA96EDB31815CFEFD1FAC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
