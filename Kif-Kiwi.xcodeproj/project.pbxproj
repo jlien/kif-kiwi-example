@@ -18,7 +18,6 @@
 		19851B111A72AC8C00F6B6D0 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19851B101A72AC8C00F6B6D0 /* SuccessViewController.m */; };
 		19851B161A72CAC700F6B6D0 /* SampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 19851B151A72CAC700F6B6D0 /* SampleObject.m */; };
 		19851B181A72CB6200F6B6D0 /* MockSampleObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19851B171A72CB6200F6B6D0 /* MockSampleObjectTest.m */; };
-		19E590B51A72A2F500E9242F /* KifStubbedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E590B41A72A2F500E9242F /* KifStubbedTests.m */; };
 		AE45A02244B371660BD50D45 /* libPods-Kif-KiwiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F4FF5EE2E8D438B8A17FAF /* libPods-Kif-KiwiTests.a */; };
 		B69284B94A98564C2B38852E /* libPods-Kif-Kiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B155721A21C192769BFB46 /* libPods-Kif-Kiwi.a */; };
 /* End PBXBuildFile section */
@@ -55,7 +54,6 @@
 		19851B141A72CAC700F6B6D0 /* SampleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleObject.h; sourceTree = "<group>"; };
 		19851B151A72CAC700F6B6D0 /* SampleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleObject.m; sourceTree = "<group>"; };
 		19851B171A72CB6200F6B6D0 /* MockSampleObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockSampleObjectTest.m; sourceTree = "<group>"; };
-		19E590B41A72A2F500E9242F /* KifStubbedTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KifStubbedTests.m; sourceTree = "<group>"; };
 		72C2A0AA16D6630CEDD12B0B /* Pods-Kif-KiwiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kif-KiwiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kif-KiwiTests/Pods-Kif-KiwiTests.release.xcconfig"; sourceTree = "<group>"; };
 		A057F3808822256492CA556C /* Pods-Kif-KiwiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kif-KiwiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kif-KiwiTests/Pods-Kif-KiwiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1B155721A21C192769BFB46 /* libPods-Kif-Kiwi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kif-Kiwi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,7 +136,6 @@
 			children = (
 				196E2D511A716300007527D8 /* Kif_KiwiTests.m */,
 				196E2D4F1A716300007527D8 /* Supporting Files */,
-				19E590B41A72A2F500E9242F /* KifStubbedTests.m */,
 				19851B171A72CB6200F6B6D0 /* MockSampleObjectTest.m */,
 			);
 			path = "Kif-KiwiTests";
@@ -352,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19E590B51A72A2F500E9242F /* KifStubbedTests.m in Sources */,
 				19851B181A72CB6200F6B6D0 /* MockSampleObjectTest.m in Sources */,
 				196E2D521A716300007527D8 /* Kif_KiwiTests.m in Sources */,
 			);

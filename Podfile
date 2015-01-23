@@ -3,6 +3,7 @@
 
 target 'Kif-Kiwi' do
   pod 'AFNetworking'
+  pod 'MBAlertView'
 end
 
 target 'Kif-KiwiTests' do
