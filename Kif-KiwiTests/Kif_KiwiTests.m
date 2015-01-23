@@ -52,7 +52,8 @@ describe(@"Login View", ^{
                 [tester clearTextFromViewWithAccessibilityLabel:@"password"];
             });
             it(@"displays an error", ^{
-                [tester waitForViewWithAccessibilityLabel:@"Error"];
+                [tester waitForViewWithAccessibilityLabel:@"Invalid Username / Password Combination"];
+                [tester tapViewWithAccessibilityLabel:@"Invalid Username / Password Combination"];
             });
         });
     });
