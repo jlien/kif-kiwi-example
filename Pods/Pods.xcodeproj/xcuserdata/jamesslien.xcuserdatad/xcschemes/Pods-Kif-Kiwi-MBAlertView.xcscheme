@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3E025C70CBC2359B2BD4DF6"
+               BlueprintIdentifier = "EFC06EAB96C3A6732BEBD139"
                BuildableName = "libPods-Kif-Kiwi-MBAlertView.a"
                BlueprintName = "Pods-Kif-Kiwi-MBAlertView"
                ReferencedContainer = "container:Pods.xcodeproj">

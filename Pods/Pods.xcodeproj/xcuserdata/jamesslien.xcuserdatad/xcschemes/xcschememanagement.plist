@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Kif-Kiwi-FDKeychain.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Kif-Kiwi-MBAlertView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,47 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1D80484EACBA142F633037C9</key>
+		<key>3F395D272E71DDF0BC083552</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>42AA877E5AC8DD136F161294</key>
+		<key>47558157A1D8ED442EB33EBA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>64B4A1E62DA3EEEE44C9BC33</key>
+		<key>5585E8C7575AA3CA4AF09F1A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6A1A799E9C89C5FDD1612417</key>
+		<key>96F2BAE1A22F1F8488BBC989</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6F3A17842DE1965AE422A17A</key>
+		<key>CCFB097E422D3DC8D46E0B4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78448659595D8CD3E44F4B46</key>
+		<key>DB30F8CEA8E803E53BAECC67</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8BF23669DEEB0853767FB49C</key>
+		<key>E877EC1271BAD2BE83A9EED8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B90151EBDE29E0E468102A1B</key>
+		<key>EFC06EAB96C3A6732BEBD139</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C3E025C70CBC2359B2BD4DF6</key>
+		<key>F15E76776025B221B661B311</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1F8DBCD060BCF18FDFBBE0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -19,7 +19,8 @@
     NSString *urlString = [NSString stringWithFormat:@"http://api.example.com/%@", path];
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:urlString parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        responseHandler(responseObject, nil);
+        NSDictionary *responseDic = (NSDictionary *) responseObject;
+        responseHandler(responseDic, nil);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         responseHandler(nil, error);
     }];

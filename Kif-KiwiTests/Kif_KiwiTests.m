@@ -1,5 +1,6 @@
 #import <kif-kiwi.h>
 #import <OHHTTPStubs.h>
+#import <FDKeychain.h>
 
 SPEC_BEGIN(LoginViewSpec)
 beforeAll(^{
@@ -17,12 +18,15 @@ describe(@"Login View", ^{
         });
 
         context(@"with valid creds", ^{
+            let(responseData, ^id{
+                return @{ @"token": @"1234" };
+            });
             beforeEach(^{
                 [tester enterText:@"validPassword" intoViewWithAccessibilityLabel:@"password"];
                 [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
                     return YES;
                 } withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
-                    return [OHHTTPStubsResponse responseWithData:nil statusCode:201 headers:@{@"Content-Type":@"application/json"}];
+                    return [OHHTTPStubsResponse responseWithJSONObject:responseData statusCode:201 headers:@{@"Content-Type":@"application/json"}];
                 }];
                 [tester tapViewWithAccessibilityLabel:@"Login"];
             });
@@ -34,6 +38,9 @@ describe(@"Login View", ^{
             });
             it(@"directs the user to the success view", ^{
                 [tester waitForViewWithAccessibilityLabel:@"Success"];
+                NSError *error;
+                NSDictionary *dic = [FDKeychain itemForKey:@"token" forService:@"session" error:&error];
+                [[dic should] equal:@{ @"token": @"1234"} ];
             });
         });
         context(@"with invalid creds", ^{

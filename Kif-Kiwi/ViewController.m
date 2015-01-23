@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SampleWebService.h"
+#import "Authenticator.h"
 #import <MBAlertView/MBAlertView.h>
 
 @interface ViewController ()
@@ -32,13 +32,13 @@
 
 -(IBAction)btnTapped:(id)sender
 {
-    [SampleWebService get:@"api/login" handler:^(id obj, NSError *error) {
-        if (error) {
+    [Authenticator authenticateWithUsername:_usernameField.text password:_passwordField.text handler:^(id obj, NSError *error) {
+         if (error) {
             MBAlertView *av = [MBAlertView alertWithBody:@"Invalid Username / Password Combination" cancelTitle:@"OK" cancelBlock:nil];
             [av addToDisplayQueue];
         } else {
             [self performSegueWithIdentifier:@"loginSuccessSegue" sender:self];
-        }
+        }       
     }];
 }
 

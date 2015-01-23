@@ -25,14 +25,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Kif-KiwiTests/Kif_KiwiTests.m"
-            timestampString = "443740473.76835"
+            filePath = "Kif-Kiwi/Authenticator.h"
+            timestampString = "443742091.816103"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "describe()"
-            landmarkType = "6">
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "+authenticateWithUsername:password:handler:"
+            landmarkType = "4">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
