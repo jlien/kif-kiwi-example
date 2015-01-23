@@ -15,6 +15,8 @@
 		196E2D461A716300007527D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196E2D441A716300007527D8 /* LaunchScreen.xib */; };
 		196E2D521A716300007527D8 /* Kif_KiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196E2D511A716300007527D8 /* Kif_KiwiTests.m */; };
 		196E2D5D1A718819007527D8 /* SampleWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 196E2D5C1A718819007527D8 /* SampleWebService.m */; };
+		19851B111A72AC8C00F6B6D0 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19851B101A72AC8C00F6B6D0 /* SuccessViewController.m */; };
+		19E590B51A72A2F500E9242F /* KifStubbedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E590B41A72A2F500E9242F /* KifStubbedTests.m */; };
 		AE45A02244B371660BD50D45 /* libPods-Kif-KiwiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F4FF5EE2E8D438B8A17FAF /* libPods-Kif-KiwiTests.a */; };
 		B69284B94A98564C2B38852E /* libPods-Kif-Kiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B155721A21C192769BFB46 /* libPods-Kif-Kiwi.a */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,9 @@
 		196E2D511A716300007527D8 /* Kif_KiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kif_KiwiTests.m; sourceTree = "<group>"; };
 		196E2D5B1A718819007527D8 /* SampleWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleWebService.h; sourceTree = "<group>"; };
 		196E2D5C1A718819007527D8 /* SampleWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleWebService.m; sourceTree = "<group>"; };
+		19851B0F1A72AC8C00F6B6D0 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		19851B101A72AC8C00F6B6D0 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		19E590B41A72A2F500E9242F /* KifStubbedTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KifStubbedTests.m; sourceTree = "<group>"; };
 		72C2A0AA16D6630CEDD12B0B /* Pods-Kif-KiwiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kif-KiwiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kif-KiwiTests/Pods-Kif-KiwiTests.release.xcconfig"; sourceTree = "<group>"; };
 		A057F3808822256492CA556C /* Pods-Kif-KiwiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kif-KiwiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kif-KiwiTests/Pods-Kif-KiwiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1B155721A21C192769BFB46 /* libPods-Kif-Kiwi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kif-Kiwi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +111,8 @@
 				196E2D351A716300007527D8 /* Supporting Files */,
 				196E2D5B1A718819007527D8 /* SampleWebService.h */,
 				196E2D5C1A718819007527D8 /* SampleWebService.m */,
+				19851B0F1A72AC8C00F6B6D0 /* SuccessViewController.h */,
+				19851B101A72AC8C00F6B6D0 /* SuccessViewController.m */,
 			);
 			path = "Kif-Kiwi";
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			children = (
 				196E2D511A716300007527D8 /* Kif_KiwiTests.m */,
 				196E2D4F1A716300007527D8 /* Supporting Files */,
+				19E590B41A72A2F500E9242F /* KifStubbedTests.m */,
 			);
 			path = "Kif-KiwiTests";
 			sourceTree = "<group>";
@@ -326,6 +334,7 @@
 				196E2D3E1A716300007527D8 /* ViewController.m in Sources */,
 				196E2D3B1A716300007527D8 /* AppDelegate.m in Sources */,
 				196E2D5D1A718819007527D8 /* SampleWebService.m in Sources */,
+				19851B111A72AC8C00F6B6D0 /* SuccessViewController.m in Sources */,
 				196E2D381A716300007527D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E590B51A72A2F500E9242F /* KifStubbedTests.m in Sources */,
 				196E2D521A716300007527D8 /* Kif_KiwiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

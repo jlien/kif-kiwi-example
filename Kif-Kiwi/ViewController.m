@@ -12,6 +12,8 @@
 @interface ViewController ()
 
 @property (nonatomic, weak) IBOutlet UILabel *hereLabel;
+@property(nonatomic, weak) IBOutlet UITextField *usernameField;
+@property(nonatomic, weak) IBOutlet UITextField *passwordField;
 
 @end
 
@@ -29,13 +31,11 @@
 
 -(IBAction)btnTapped:(id)sender
 {
-    [SampleWebService get:@"path" handler:^(id obj, NSError *error) {
+    [SampleWebService get:@"api/login" handler:^(id obj, NSError *error) {
         if (error) {
-            [[[UIAlertView alloc] initWithTitle:@"Title" message:@"Error occurred" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
-        } else {
-            NSData *data = obj;
-            _hereLabel.text = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             _hereLabel.hidden = NO;
+        } else {
+            [self performSegueWithIdentifier:@"loginSuccessSegue" sender:self];
         }
     }];
 }

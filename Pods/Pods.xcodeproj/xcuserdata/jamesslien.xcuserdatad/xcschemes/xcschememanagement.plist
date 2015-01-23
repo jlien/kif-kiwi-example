@@ -9,21 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Kif-Kiwi-RestKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Kif-Kiwi-SOCKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Kif-Kiwi-TransitionKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Kif-Kiwi.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -44,7 +29,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Kif-KiwiTests-Nocilla.xcscheme</key>
+		<key>Pods-Kif-KiwiTests-OHHTTPStubs.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,52 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>139FFF856BDEC1795CFCA850</key>
+		<key>08C4B337BCEE1445195FDCA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3131B8E41268A3B6DD4F425A</key>
+		<key>630A6CD73245110F0C1C3221</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4B5609076D91072B401E6D16</key>
+		<key>6A286429607118196678C660</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6139ECDB70F2427F101E94FA</key>
+		<key>726994A77EBD6460C29ADCC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>67C6F1490BE6D1D77B0BA94C</key>
+		<key>C3ADDF7D68E6997F322DC706</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>723B36121A35F0EB0ACF0C68</key>
+		<key>DEF82E02B318940FBCBBD8D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8F2D50A617DE84573A855A47</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B423BFA0E90A5189D5CD1BA0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CC6F4FB12036521808FB0B1C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D51C485E3393C1D0C3A772EC</key>
+		<key>EA349CD4144F43627F6D78F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

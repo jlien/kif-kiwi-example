@@ -2,12 +2,11 @@
 # platform :ios, '6.0'
 
 target 'Kif-Kiwi' do
-  pod 'RestKit', '~> 0.20.0'
-  pod 'RestKit/Testing', '~> 0.20.0'
+  pod 'AFNetworking'
 end
 
 target 'Kif-KiwiTests' do
   pod 'KIF-Kiwi'
-  pod 'Nocilla'
+  pod 'OHHTTPStubs'
 end
 
