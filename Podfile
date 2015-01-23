@@ -8,5 +8,6 @@ end
 target 'Kif-KiwiTests' do
   pod 'KIF-Kiwi'
   pod 'OHHTTPStubs'
+  pod 'OCMock'
 end
 

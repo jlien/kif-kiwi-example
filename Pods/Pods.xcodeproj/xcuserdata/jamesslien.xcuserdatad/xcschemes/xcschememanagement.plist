@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Kif-KiwiTests-OCMock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Kif-KiwiTests-OHHTTPStubs.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08C4B337BCEE1445195FDCA1</key>
+		<key>17F78BCEB70E2D340790D118</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>630A6CD73245110F0C1C3221</key>
+		<key>62DD57D41374ACCED0303336</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6A286429607118196678C660</key>
+		<key>6B954E351445D8B741875C72</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>726994A77EBD6460C29ADCC9</key>
+		<key>7011D3068FB408BF9E227B0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C3ADDF7D68E6997F322DC706</key>
+		<key>866D63D22257817FD472DA41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DEF82E02B318940FBCBBD8D1</key>
+		<key>C02CC4E4DA627433C1842913</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EA349CD4144F43627F6D78F1</key>
+		<key>D278D9C090075EE3266743BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE7B2E3C7283CD96E8230CB1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

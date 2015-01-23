@@ -27,6 +27,7 @@ PODS:
     - Kiwi (~> 2.3.0)
   - KIF/XCTest (3.1.2)
   - Kiwi (2.3.1)
+  - OCMock (3.1.2)
   - OHHTTPStubs (3.1.10):
     - OHHTTPStubs/Core (= 3.1.10)
   - OHHTTPStubs/Core (3.1.10)
@@ -34,6 +35,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - KIF-Kiwi
+  - OCMock
   - OHHTTPStubs
 
 SPEC CHECKSUMS:
@@ -41,6 +43,7 @@ SPEC CHECKSUMS:
   KIF: 068074b24dd455025e7f2a488ba4fb07b9ce047b
   KIF-Kiwi: e1f2a0b3151d4864470d3d8223daeb3df32a4ab8
   Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
+  OCMock: ecdd510b73ef397f2f97274785c1e87fd147c49f
   OHHTTPStubs: 2038e929b6abb94881000524c1cb4aba0a1bb4a2
 
 COCOAPODS: 0.35.0
