@@ -16,5 +16,6 @@
 -(void) expectSuccessfulLogin;
 -(void) expectFailedLogin;
 -(void) stubLoginWithValidCreds:(BOOL) isValid;
+-(void) validLogin;
 
 @end

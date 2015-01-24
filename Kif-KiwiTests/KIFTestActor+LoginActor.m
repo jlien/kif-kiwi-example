@@ -34,6 +34,12 @@
 	[tester enterText:@"password" intoViewWithAccessibilityLabel:@"password"];
 }
 
+-(void) validLogin
+{
+	[self beforeLogin];
+	[self stubLoginWithValidCreds:YES];
+}
+
 -(void) expectSuccessfulLogin
 {
 	[tester waitForViewWithAccessibilityLabel:@"Success"];
@@ -44,6 +50,7 @@
 	[tester waitForViewWithAccessibilityLabel:@"Invalid Username / Password Combination"];
 	[tester tapViewWithAccessibilityLabel:@"Invalid Username / Password Combination"];
 }
+
 -(void) stubLoginWithValidCreds:(BOOL)isValid
 {
 	
