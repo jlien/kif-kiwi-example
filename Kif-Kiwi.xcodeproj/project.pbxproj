@@ -15,6 +15,9 @@
 		196E2D461A716300007527D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196E2D441A716300007527D8 /* LaunchScreen.xib */; };
 		196E2D521A716300007527D8 /* Kif_KiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196E2D511A716300007527D8 /* Kif_KiwiTests.m */; };
 		196E2D5D1A718819007527D8 /* SampleWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 196E2D5C1A718819007527D8 /* SampleWebService.m */; };
+		196F78791A7312F6005590ED /* LoginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F78781A7312F6005590ED /* LoginHelper.m */; };
+		196F787C1A731400005590ED /* StubHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F787B1A731400005590ED /* StubHelper.m */; };
+		196F787F1A736BB3005590ED /* KIFTestActor+LoginActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F787E1A736BB3005590ED /* KIFTestActor+LoginActor.m */; };
 		19851B111A72AC8C00F6B6D0 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19851B101A72AC8C00F6B6D0 /* SuccessViewController.m */; };
 		19851B161A72CAC700F6B6D0 /* SampleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 19851B151A72CAC700F6B6D0 /* SampleObject.m */; };
 		19851B181A72CB6200F6B6D0 /* MockSampleObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19851B171A72CB6200F6B6D0 /* MockSampleObjectTest.m */; };
@@ -50,6 +53,12 @@
 		196E2D511A716300007527D8 /* Kif_KiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kif_KiwiTests.m; sourceTree = "<group>"; };
 		196E2D5B1A718819007527D8 /* SampleWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleWebService.h; sourceTree = "<group>"; };
 		196E2D5C1A718819007527D8 /* SampleWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleWebService.m; sourceTree = "<group>"; };
+		196F78771A7312F6005590ED /* LoginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHelper.h; sourceTree = "<group>"; };
+		196F78781A7312F6005590ED /* LoginHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHelper.m; sourceTree = "<group>"; };
+		196F787A1A731400005590ED /* StubHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StubHelper.h; sourceTree = "<group>"; };
+		196F787B1A731400005590ED /* StubHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StubHelper.m; sourceTree = "<group>"; };
+		196F787D1A736BB3005590ED /* KIFTestActor+LoginActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestActor+LoginActor.h"; sourceTree = "<group>"; };
+		196F787E1A736BB3005590ED /* KIFTestActor+LoginActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestActor+LoginActor.m"; sourceTree = "<group>"; };
 		19851B0F1A72AC8C00F6B6D0 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
 		19851B101A72AC8C00F6B6D0 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
 		19851B141A72CAC700F6B6D0 /* SampleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleObject.h; sourceTree = "<group>"; };
@@ -139,6 +148,7 @@
 		196E2D4E1A716300007527D8 /* Kif-KiwiTests */ = {
 			isa = PBXGroup;
 			children = (
+				196F78761A7312CF005590ED /* TestHelpers */,
 				196E2D511A716300007527D8 /* Kif_KiwiTests.m */,
 				196E2D4F1A716300007527D8 /* Supporting Files */,
 				19851B171A72CB6200F6B6D0 /* MockSampleObjectTest.m */,
@@ -152,6 +162,19 @@
 				196E2D501A716300007527D8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		196F78761A7312CF005590ED /* TestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				196F78771A7312F6005590ED /* LoginHelper.h */,
+				196F78781A7312F6005590ED /* LoginHelper.m */,
+				196F787A1A731400005590ED /* StubHelper.h */,
+				196F787B1A731400005590ED /* StubHelper.m */,
+				196F787D1A736BB3005590ED /* KIFTestActor+LoginActor.h */,
+				196F787E1A736BB3005590ED /* KIFTestActor+LoginActor.m */,
+			);
+			name = TestHelpers;
 			sourceTree = "<group>";
 		};
 		2ECFD1DC8878226789354C20 /* Pods */ = {
@@ -355,8 +378,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196F78791A7312F6005590ED /* LoginHelper.m in Sources */,
+				196F787C1A731400005590ED /* StubHelper.m in Sources */,
 				19851B181A72CB6200F6B6D0 /* MockSampleObjectTest.m in Sources */,
 				196E2D521A716300007527D8 /* Kif_KiwiTests.m in Sources */,
+				196F787F1A736BB3005590ED /* KIFTestActor+LoginActor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
