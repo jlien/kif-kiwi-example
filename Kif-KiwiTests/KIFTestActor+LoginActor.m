@@ -9,6 +9,9 @@
 #import "KIFTestActor+LoginActor.h"
 #import "LoginHelper.h"
 #import <Kiwi/Kiwi.h>
+#import "StubHelper.h"
+#import <OHHTTPStubs.h>
+#import <FDKeychain.h>
 
 @implementation KIFTestActor (LoginActor)
 
@@ -35,5 +38,25 @@
 {
 	[tester waitForViewWithAccessibilityLabel:@"Success"];
 }
+
+-(void) expectFailedLogin
+{
+	[tester waitForViewWithAccessibilityLabel:@"Invalid Username / Password Combination"];
+	[tester tapViewWithAccessibilityLabel:@"Invalid Username / Password Combination"];
+}
+-(void) stubLoginWithValidCreds:(BOOL)isValid
+{
+	
+	NSDictionary *headers = @{@"Content-Type":@"application/json"};
+	NSString *loginPath = @"http://api.example.com/api/login";
+	NSNumber *statusCode = isValid ? @201 : @400;
+	[StubHelper stubRequestForUrl:loginPath data:[self responseData] statusCode: statusCode headers:headers];
+	[tester tapViewWithAccessibilityLabel:@"Login"];
+}
+
+-(NSDictionary *) responseData
+{
+	return @{ @"token": @"1234" };
+};
 
 @end

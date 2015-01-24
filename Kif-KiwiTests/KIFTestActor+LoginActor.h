@@ -14,5 +14,7 @@
 -(void) logout;
 -(void) clearLoginTextFields;
 -(void) expectSuccessfulLogin;
+-(void) expectFailedLogin;
+-(void) stubLoginWithValidCreds:(BOOL) isValid;
 
 @end
